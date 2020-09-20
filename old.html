@@ -1,0 +1,331 @@
+
+    <html>
+    <head>
+        <title>King Lai</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css?family=Amiko|Arima+Madurai|Droid+Sans+Mono" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="icon" href="Images/crown.png">
+        <style>
+           body {
+            background-image: linear-gradient(145deg, #061426, #122b4a);
+            margin: 0;
+        }
+
+        .vertical {
+            border-left: 1px solid white;
+            height: 15%;
+            margin-left: 4.6vw;
+            position: fixed;
+            transition: all 0.3s ease;
+        }
+
+        .icons {
+            position: fixed;
+            top: 20vh;
+        }
+
+        .icons a {
+          display: block;
+          text-align: center;
+          padding: 12px;
+          transition: all 0.3s ease;
+          color: #061426;
+          font-size: 23px;
+          margin-bottom: 5vh;
+          margin-left: 3.5vw;
+          border-radius: 100% 100%;
+      }
+
+      .icons a:hover {
+          background-color: #91a9ff;
+      }
+
+      .linkedin, .github, .facebook {
+          background: #fff ;
+          color: white;
+      }
+
+  .about {
+    /*background-image: linear-gradient(145deg, #061426, #122b4a);*/
+}
+
+.profile_picture {
+    text-align: center;
+    padding-top: 10vh;
+}
+
+.profile_picture img {
+    width: 23vh;
+    height: 23vh;
+    border-radius: 50%;
+    padding: 2px;
+    background-color: #fff;
+}
+
+.intro {
+  font-family: 'Amiko', sans-serif;
+  text-align: center;
+  padding-top: 3vh;
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+}
+
+.intro h1 {
+  font-size: 75;
+  margin-top: 2vh;
+  margin-bottom: 3vh;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  text-shadow: 3px 3px 3px #000;
+}
+
+.intro p {
+    font-size: 18;
+    text-shadow: 3px 3px 3px #000;
+    margin-left: 25vw;
+    margin-right: 25vw;
+    color: #cadae3;
+}
+
+.resume {
+    font-family: 'Amiko', sans-serif;
+    text-align: center;
+    font-size: 25;
+    padding-top: 3vh;
+    padding-bottom: 10vh;
+    font-weight: bold;
+}
+
+.resume a {
+    background-color: #cadae3;
+    color: #122b4a;
+    text-decoration: none;
+    border: none;
+    border-radius: 100px 100px;
+    box-shadow: 2px 2px 4px #000000;
+    padding: 16px 48px;
+}
+
+.resume a:hover {
+    color: #061426;
+    transition: color 0.3s ease-in-out;
+    background-color: #f0f9ff;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.horizontal-line {
+    border-bottom: 1px solid white;
+    margin-left: 25vw;
+    margin-right: 25vw;
+}
+
+.portfolio {
+    /*background-image: linear-gradient(145deg, #d4d4d4, #e6e6e6);*/
+    padding-bottom: 10vh;
+}
+
+.title {
+    font-family: 'Amiko', sans-serif;
+    text-align: center;
+    padding-top: 4vh;
+    padding-bottom: 8vh;
+}
+
+.title h1 {
+    font-size: 28;
+    font-weight: bold;
+    color: #fff;
+    margin-top: 10vh;
+    margin-bottom: 2vh;
+}
+
+.puzzle, .dotted {
+    padding-top: 0vh;
+    padding-bottom: 10vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-bottom: 0vh;
+}
+
+.puzzle_title, .dotted_title {
+    font-family: 'Amiko', sans-serif;
+    text-align: center;
+    padding-top: 1vh;
+    padding-bottom: 2vh;
+}
+
+.puzzle_title h1, .dotted_title h1 {
+    font-size: 23;
+    font-weight: bold;
+    color: #fff;
+}
+
+.puzzle_menu, .dotted_image {
+    text-align: center;
+}
+
+.puzzle_menu img, .dotted_image img {
+    width: 30vw;
+    height: auto;
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
+    margin-bottom: 3vh;
+    border-radius: 10px 10px;
+}
+
+.puzzle_desc, .dotted_desc {
+    padding-left: 4vw;
+    padding-right: 4vw;
+    padding-top: 2.5vh;
+    padding-bottom: 2.5vh;
+    background-color: #bac4db;
+    margin-left: 27vw;
+    margin-right: 27vw;
+    margin-top: 2vh;
+}
+
+.puzzle_desc p, .dotted_desc p {
+    font-family: 'Amiko', sans-serif;
+    text-align: center;
+    color: #000;
+    font-size: 16;
+}
+
+.puzzle_desc a, .dotted_desc a {
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 16;
+}
+
+.puzzle_desc a:hover, .dotted_desc a:hover {
+    color: #4370a8;
+    transition: color 0.3s ease-in-out;
+}
+
+@media screen and (max-width: 1000px) {
+    .vertical {
+        border: 0px solid white;
+    }
+
+    .icons {
+    	opacity: 0%;
+        /*position: absolute; 
+        top: 20vh;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);*/
+    }
+
+    .intro h1 {
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+
+    .intro p {
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+
+    .horizontal-line {
+        margin-left: 10vw;
+        margin-right: 10vw;
+    }
+
+    .puzzle, .dotted {
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+
+    .puzzle_desc, .dotted_desc {
+        margin-left: 0vw;
+        margin-right: 0vw;
+    }
+
+    .puzzle img, .dotted img {
+        width: 60vw;
+        height: auto;
+    }
+
+}
+
+</style>
+</head>
+
+<body>
+    <div class="icons">
+        <a href="https://www.linkedin.com/in/kinglai23/" target="_blank" class="linkedin"><i class="fa fa-linkedin"></i></a> 
+        <a href="https://github.com/KingLai23/" target="_blank" class="github"><i class="fa fa-github"></i></a> 
+        <a href="https://www.facebook.com/kinnggg.laiii/" target="_blank" class="facebook"><i class="fa fa-facebook"></i></a> 
+    </div>
+
+    <div class = "about">
+        <!-- <div class = "vertical line"></div> -->
+
+        <div class = "profile_picture">
+            <img src="Images/profileold.jpg" alt="King Lai">
+        </div>
+
+        <div class = "intro">
+            <h1>Hello! I'm King Lai.</h1>
+            <p>I am a second-year student pursuing a degree in Computer Science at the University of Toronto Scarborough. I enjoy playing Minecraft and hosting Minecraft Servers (with auto daily backups of course).</p>
+        </div>
+
+        <div class = "resume">
+            <p><a href="Documents/King's Resume.pdf" target="_blank">Resume</a></p>
+        </div>
+
+        <div class = "horizontal-line"></div>
+    </div>
+
+    <div class = "portfolio">
+        <div class = "title">
+            <h1>Some Of My Projects.</h1>
+        </div>
+
+        <div class = "puzzle">
+            <div class = "puzzle_title">
+                <h1>Puzzle - A Minecraft Server Manager</h1>
+            </div>
+            
+            <div class = "puzzle_menu">
+                <img src="Images/puzzle_menu_online.png">
+            </div>
+
+            <div class = "puzzle_desc">
+                <p>A simple server manager for the popular game, Minecraft. Built for the Linux terminal, 
+                    it allows you to start, stop, backup, restore, and set automated backups for your Minecraft
+                    server. Given a number of maximum backups, it will auto-remove the oldest backups to make
+                    sure you never exceed the maximum amount. This saves tons of storage space each month! Everything
+                is backed onto an SVN repository.</p>
+
+                <p>Learn more about Puzzle on my GitHub <a href="https://github.com/KingLai23/Puzzle" target="_blank">here</a>.</p>
+            </div>
+        </div>
+
+        <div class = "dotted">
+            <div class = "dotted_title">
+                <h1>Dotted - Puzzle Game</h1>
+            </div>
+
+            <div class = "dotted_image">
+                <img src="Images/dotted.PNG">
+            </div>
+
+            <div class = "dotted_desc">
+                <p>A fun puzzle game whose goal is to collect as many points as possible. Swap two dots
+                to form chains of length 3 more to earn points. Every chain created is removed
+                from the game board, where the pieces cascade downwards, and the remaining empty slots are 
+                filled with randomly colored pieces. Dotted utilizes recursion to produce the cascade,
+                and feautures a simple and attractive GUI.</p>
+
+                <p>Learn more about Dotted on my GitHub <a href="https://github.com/KingLai23/Dotted" target="_blank">here</a>.</p>
+            </div>
+        </div>
+
+        <div class = "horizontal-line"></div>
+    </div>
+</div>
+</body>
+</html>
