@@ -4,6 +4,7 @@
 	<title>King Lai</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="https://fonts.googleapis.com/css?family=Amiko|Arima+Madurai|Droid+Sans+Mono" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="icon" href="Images/crown.png">
 	<style>
@@ -81,15 +82,16 @@
 		}
 
 		.intro p {
+			font-family: 'Kumbh Sans', sans-serif;
 			font-size: 18;
 			text-shadow: 3px 3px 3px #000;
-			margin-left: 25vw;
-			margin-right: 25vw;
+			margin-left: 26vw;
+			margin-right: 26vw;
 			color: #cadae3;
 		}
 
 		.resume {
-			font-family: 'Amiko', sans-serif;
+			font-family: 'Kumbh Sans', sans-serif;
 			text-align: center;
 			font-size: 25;
 			padding-top: 3vh;
@@ -126,7 +128,7 @@
 		}
 
 		.title {
-			font-family: 'Amiko', sans-serif;
+			font-family: 'Kumbh Sans', sans-serif;
 			text-align: center;
 			padding-top: 4vh;
 			padding-bottom: 8vh;
@@ -149,6 +151,7 @@
 		}
 
 		.container {
+			font-family: 'Kumbh Sans', sans-serif;
 			display: flex;
 			align-items: center;
 			justify-content: center;
@@ -158,9 +161,7 @@
 			flex-basis: 30%;
 		}
 
-		.puzzle_title, .dotted_title {
-			font-family: 'Amiko', sans-serif;
-		}
+		.puzzle_title, .dotted_title {}
 
 		.puzzle_title h1, .dotted_title h1 {
 			font-size: 30;
@@ -200,6 +201,20 @@
 		.puzzle_desc a:hover, .dotted_desc a:hover {
 			color: #4370a8;
 			transition: color 0.3s ease-in-out;
+		}
+
+		@media screen and (max-width: 1400px) {
+			.title h1 {
+				font-size: 26;
+			}
+
+			.puzzle_title h1, .dotted_title h1 {
+				font-size: 25;
+			}
+
+			.puzzle_desc p, .dotted_desc p {
+				font-size: 14;
+			}
 		}
 
 		@media screen and (max-width: 1000px) {
