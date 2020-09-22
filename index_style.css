@@ -293,6 +293,10 @@ background-image: linear-gradient(145deg, #08001f, #0e0038);
 		height: auto;
 	}
 
+	.profile_picture {
+		padding-top: 10vh;
+	}	
+
 	.intro h1 {
 		margin-left: 5vw;
 		margin-right: 5vw;
