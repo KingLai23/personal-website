@@ -152,9 +152,9 @@ nav li:hover {
 }
 
 .portfolio {
-	border-top: 5px solid #721e1b;
-	border-bottom: 5px solid #721e1b;
-	background-image: linear-gradient(90deg, transparent, #942a26, #942a26, #942a26, transparent);
+	border-top: 5px solid #1e1664;
+	border-bottom: 5px solid #1e1664;
+	background-image: linear-gradient(90deg, transparent, #261d7a, #261d7a, #261d7a, transparent);
 }
 
 .title {
