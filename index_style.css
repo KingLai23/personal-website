@@ -8,7 +8,7 @@ body {
 	height: 15%;
 	margin-left: 4.6vw;
 	position: fixed;
-	transition: all 0.3s ease;
+	transition: all 0.8s ease;
 }
 
 .icons {
@@ -37,6 +37,42 @@ body {
 	background: #fff ;
 	color: white;
 }
+
+/* nav {
+    position: fixed;
+	margin-top: 40vh;;
+    left: 90vw;
+}
+
+nav ul {
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+	align-items: center;
+	list-style: none;
+}
+
+nav li {
+    width: 10px;
+	height: 10px;
+    border-radius: 50%;
+    background-color: rgb(139, 139, 139);
+    cursor: pointer;
+	transition: 0.5s;
+	margin-bottom: 4vh;
+}
+
+nav li:hover {
+	background-color: rgb(255, 255, 255);
+}
+
+.active {
+	background-color: white;
+	box-shadow: 0 0 0 3px white;
+} */
+
 
 .header {
 	background-image: linear-gradient(145deg, #0c0026, #110036);
@@ -179,7 +215,10 @@ body {
 	box-shadow: 1px 1px 1px #000;
 }
 
-.puzzle_desc, .dotted_desc, .board-server_desc {
+.puzzle_desc img, .dotted_desc img, .board-server_desc img {
+	height: 12px;
+	width: 12px;
+	padding-right: 12px;
 }
 
 .puzzle_desc p, .dotted_desc p, .board-server_desc p {
@@ -269,12 +308,20 @@ background-image: linear-gradient(145deg, #08001f, #0e0038);
 		font-size: 26;
 	}
 
+	.dot-nav { display: none;}
+
 	.puzzle_title h1, .dotted_title h1, .board-server_title h1 {
 		font-size: 25;
 	}
 
 	.puzzle_desc p, .dotted_desc p, .board-server_desc p {
 		font-size: 14;
+	}
+
+	.puzzle_desc img, .dotted_desc img, .board-server_desc img {
+		height: 10px;
+		width: 10px;
+		padding-right: 10px;
 	}
 
 	.puzzle_desc a, .dotted_desc a, .board-server_desc a {
@@ -289,7 +336,11 @@ background-image: linear-gradient(145deg, #08001f, #0e0038);
 
 	.icons {
 		display: none;
-	}	
+	}
+	
+	.dot-nav {
+		display: none;
+	}
 
 	.header {
 		height: auto;
@@ -353,9 +404,15 @@ background-image: linear-gradient(145deg, #08001f, #0e0038);
 		margin-right: 0vw;
 	}
 
+
 	.puzzle img, .dotted img, .board-server img {
 		width: 60vw;
 		height: auto;
+	}
+
+	.puzzle_desc img, .dotted_desc img, .board-server_desc img {
+		height: 10px;
+		width: 10px;
 	}
 
 	.secondary-icons {
