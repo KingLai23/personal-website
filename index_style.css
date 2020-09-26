@@ -490,7 +490,7 @@ background-image: linear-gradient(145deg, #08001f, #0e0038);
         text-align: center;
         margin-left: 5vw;
         margin-right: 5vw;
-        padding-bottom: 2vh;
+        padding-bottom: 55px;
     }
     .secondary-icons img {
         text-align: center;
@@ -518,16 +518,19 @@ background-image: linear-gradient(145deg, #08001f, #0e0038);
         display: initial;
         text-align: center;
     }
+    .navbar img {
+        height: 30px;
+        width: auto;
+    }
     .navbar a {
         display: inline-block;
         color: #f2f2f2;
         text-align: center;
-        padding: 20px 20px;
+        padding: 15px 20px;
         text-decoration: none;
-        font-size: 17px;
+        font-size: 12px;
     }
-    .navbar a:hover {
-        background: #1d3464;
-        transition: background-color 0.3s ease-in-out;
+    figcaption {
+        padding-top: 10px;
     }
 }
