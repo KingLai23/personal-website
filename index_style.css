@@ -90,26 +90,23 @@ html {
 
 .resume {
     text-align: center;
-    font-size: 25;
+    font-size: 21;
     padding-top: 3vh;
     padding-bottom: 10vh;
-    font-weight: bold;
 }
 
 .resume a {
-    background-color: #cadae3;
-    color: #122b4a;
+    color: #fff;
     text-decoration: none;
-    border: none;
-    border-radius: 50px 50px;
-    box-shadow: 2px 2px 4px #000000;
-    padding: 16px 48px;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    /* box-shadow: 2px 2px 4px #000000; */
+    padding: 14px 48px;
 }
 
 .resume a:hover {
-    color: #061426;
     transition: color 0.3s ease-in-out;
-    background-color: #f0f9ff;
+    background-color: #695b45;
     transition: background-color 0.3s ease-in-out;
 }
 
