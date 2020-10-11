@@ -35,7 +35,8 @@ html {
 }
 
 .icons a:hover {
-    background-color: #91a9ff;
+    background-color: #695b45;
+    color: #fff;
 }
 
 .linkedin,
