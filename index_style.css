@@ -29,7 +29,7 @@ html {
     color: #061426;
     font-size: 23px;
     margin-bottom: 5vh;
-    margin-left: 3.5vw;
+    margin-left: 6vw;
     border-radius: 50%;
     box-shadow: 1px 1px 1px #383838;
 }
@@ -53,7 +53,7 @@ html {
 
 .profile_picture {
     text-align: center;
-    padding-top: 16vh;
+    padding-top: 12vh;
 }
 
 .profile_picture img {
@@ -61,7 +61,7 @@ html {
     height: 23vh;
     border-radius: 50%;
     padding: 2px;
-    background-color: #fff;
+    background-color: rgb(108, 129, 146);
 }
 
 .intro {
@@ -73,7 +73,7 @@ html {
 }
 
 .intro h1 {
-    font-size: 75;
+    font-size: 50;
     margin-top: 2vh;
     margin-bottom: 3vh;
     margin-left: 5vw;
@@ -92,22 +92,23 @@ html {
 .resume {
     text-align: center;
     font-size: 21;
+    font-weight: bold;
     padding-top: 3vh;
     padding-bottom: 10vh;
 }
 
 .resume a {
-    color: #fff;
+    color: rgb(0, 0, 0);
     text-decoration: none;
-    border-top: 2px solid white;
-    border-bottom: 2px solid white;
+    background-color: #c9d3ee;
+    border-radius: 50px 50px;
     /* box-shadow: 2px 2px 4px #000000; */
-    padding: 14px 48px;
+    padding: 18px 48px;
 }
 
 .resume a:hover {
     transition: color 0.3s ease-in-out;
-    background-color: #695b45;
+    background-color: #d9e1f8;
     transition: background-color 0.3s ease-in-out;
 }
 
@@ -121,7 +122,7 @@ html {
 .portfolio {
     border-top: 5px solid #14315e;
     border-bottom: 5px solid #14315e;
-    background-image: linear-gradient(90deg, transparent, #1c437e, #1c437e, #1c437e, transparent);
+    background-image: linear-gradient(90deg, transparent, #162d53, #162d53, #162d53, transparent);
 }
 
 .title {
@@ -166,7 +167,7 @@ html {
 .container-p>div,
 .container-d>div,
 .container-bs>div {
-    flex-basis: 25%;
+    flex-basis: 20%;
 }
 
 .puzzle_text,
@@ -187,8 +188,8 @@ html {
 .puzzle_image img,
 .dotted_image img,
 .board-server_image img {
-    width: 25vw;
-    height: auto;
+    height: 350px;
+    width: auto;
     border-radius: 10px 10px;
     box-shadow: 1px 1px 1px #000;
 }
