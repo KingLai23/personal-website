@@ -93,7 +93,7 @@ html {
     text-align: center;
     font-size: 21;
     font-weight: bold;
-    padding-top: 3vh;
+    padding-top: 4vh;
     padding-bottom: 10vh;
 }
 
@@ -102,14 +102,15 @@ html {
     text-decoration: none;
     background-color: #c9d3ee;
     border-radius: 50px 50px;
+    border: #c9d3ee solid 3px;
     /* box-shadow: 2px 2px 4px #000000; */
-    padding: 18px 48px;
+    padding: 16px 48px;
 }
 
 .resume a:hover {
-    transition: color 0.3s ease-in-out;
-    background-color: #d9e1f8;
-    transition: background-color 0.3s ease-in-out;
+    color: #fff;
+    font-weight: normal;
+    background-color: #071829;
 }
 
 .horizontal-line {
