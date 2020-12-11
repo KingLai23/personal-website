@@ -1,5 +1,5 @@
 body {
-    background-color: #071829;
+    background-color: #1d2024;
     font-family: 'Kumbh Sans', sans-serif;
     margin: 0;
 }
@@ -35,7 +35,7 @@ html {
 }
 
 .icons a:hover {
-    background-color: #695b45;
+    background-color: #a34444;
     color: #fff;
 }
 
@@ -48,7 +48,7 @@ html {
 
 .header {
     /* background-image: linear-gradient(145deg, #0c0026, #110036);*/
-    background-color: #071829;
+    background-color: #15181b;
 }
 
 .profile_picture {
@@ -60,8 +60,8 @@ html {
     width: 23vh;
     height: 23vh;
     border-radius: 50%;
-    padding: 2px;
-    background-color: rgb(108, 129, 146);
+    padding: 3px;
+    background-color: rgb(47, 56, 65);
 }
 
 .intro {
@@ -95,6 +95,7 @@ html {
     font-weight: bold;
     padding-top: 4vh;
     padding-bottom: 10vh;
+    font-family: 'Amiko';
 }
 
 .resume a {
@@ -104,13 +105,14 @@ html {
     border-radius: 50px 50px;
     border: #c9d3ee solid 3px;
     /* box-shadow: 2px 2px 4px #000000; */
-    padding: 16px 48px;
+    padding: 10px 48px;
 }
 
 .resume a:hover {
     color: #fff;
     font-weight: normal;
-    background-color: #071829;
+    background-color: #15181b;
+    transition: background-color 0.25s ease-in-out;
 }
 
 .horizontal-line {
@@ -121,9 +123,11 @@ html {
 }
 
 .portfolio {
-    border-top: 5px solid #14315e;
-    border-bottom: 5px solid #14315e;
-    background-image: linear-gradient(90deg, transparent, #162d53, #162d53, #162d53, transparent);
+    border-top: 5px solid rgb(47, 56, 65);
+    border-bottom: 5px solid rgb(41, 49, 58);
+    /* background-image: linear-gradient(90deg, transparent, #162d53, #162d53, #162d53, transparent); */
+    background-color: #1d2127;
+    padding-bottom: 8vh;
 }
 
 .title {
@@ -137,16 +141,12 @@ html {
     font-weight: normal;
     font-size: 28;
     color: #fff;
-    margin-top: 10vh;
-    margin-bottom: 2vh;
+    margin-top: 8vh;
+    margin-bottom: 0vh;
 }
 
-.puzzle,
-.dotted,
-.board-server {
-    margin-left: 0vw;
-    margin-right: 0vw;
-    margin-bottom: 0vh;
+.project {
+    margin: auto;
     text-shadow: 1px 1px 1px #000;
 }
 
@@ -155,92 +155,77 @@ html {
 .dotted { background-image: linear-gradient(145deg, #851608, #cf4736); }
 .board-server { background-image: linear-gradient(145deg, #4e00a1, #4c8de0); }*/
 
-.container-p,
-.container-d,
-.container-bs {
+.container-p {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 6vh;
-    padding-bottom: 6vh;
+    padding-top: 8vh;
+    padding-bottom: 2vh;
 }
 
-.container-p>div,
-.container-d>div,
-.container-bs>div {
+.container-p>div {
     flex-basis: 20%;
 }
 
-.puzzle_text,
-.dotted_text,
-.board-server_text {
+.project-text {
     padding-left: 3vw;
 }
 
-.puzzle_title h1,
-.dotted_title h1,
-.board-server_title h1 {
+.project-title h1 {
     font-size: 30;
     font-weight: normal;
     color: #fff;
     text-align: left;
 }
 
-.puzzle_image img,
-.dotted_image img,
-.board-server_image img {
-    height: 350px;
+.project-image img {
+    height: 320px;
     width: auto;
     border-radius: 10px 10px;
     box-shadow: 1px 1px 1px #000;
+    float: right;
 }
 
-.puzzle_desc img,
-.dotted_desc img,
-.board-server_desc img {
+.project-desc img {
     height: 12px;
     width: 12px;
-    padding-right: 12px;
+    padding-right: 8px;
 }
 
-.puzzle_desc p,
-.dotted_desc p,
-.board-server_desc p {
+.project-desc p {
     text-align: left;
     color: #fff;
     font-size: 16;
+    line-height: 22px;
 }
 
-.puzzle_desc a,
-.dotted_desc a,
-.board-server_desc a {
+.project-desc a {
     color: #fff;
     font-weight: bold;
     text-decoration: none;
     font-size: 16;
 }
 
-.puzzle_desc a:hover,
-.dotted_desc a:hover,
-.board-server_desc a:hover {
+.project-desc a:hover {
     color: #4a8dbd;
     transition: color 0.3s ease-in-out;
 }
 
 .about {
-    background-image: linear-gradient(90deg, transparent, #102546, #102546, #102546, transparent);
+    /* background-image: linear-gradient(90deg, transparent, #102546, #102546, #102546, transparent); */
+    background-color: #1c2024;
     text-shadow: 1px 1px 1px #000;
     color: #fff;
     /* border-top: 5px solid #193555; */
-    border-bottom: 5px solid rgb(6, 32, 48);
+    border-bottom: 5px solid rgb(23, 27, 32);
 }
 
 .about_title h1 {
     font-size: 28;
     font-weight: normal;
     margin: 0;
-    padding-top: 10vh;
-    padding-bottom: 8vh;
+    padding-top: 8vh;
+    padding-bottom: 6vh;
     text-align: center;
 }
 
@@ -296,7 +281,7 @@ background-image: linear-gradient(145deg, #08001f, #0e0038);
 
 .footer p {
     text-align: center;
-    color: #bcc8e8;
+    color: #c7c7c7;
     font-size: 16;
     padding-top: 2vh;
     padding-bottom: 2vh;
@@ -311,26 +296,18 @@ background-image: linear-gradient(145deg, #08001f, #0e0038);
     .title h1 {
         font-size: 26;
     }
-    .puzzle_title h1,
-    .dotted_title h1,
-    .board-server_title h1 {
+    .project-title h1 {
         font-size: 25;
     }
-    .puzzle_desc p,
-    .dotted_desc p,
-    .board-server_desc p {
+    .project-desc p {
         font-size: 14;
     }
-    .puzzle_desc img,
-    .dotted_desc img,
-    .board-server_desc img {
+    .project-desc img {
         height: 10px;
         width: 10px;
         padding-right: 10px;
     }
-    .puzzle_desc a,
-    .dotted_desc a,
-    .board-server_desc a {
+    .project_desc {
         font-size: 14;
     }
 }
@@ -425,63 +402,42 @@ background-image: linear-gradient(145deg, #08001f, #0e0038);
         margin-left: 10vw;
         margin-right: 10vw;
     }
-    .container-p,
-    .container-d,
-    .container-bs {
+    .container-p {
         display: inherit;
         align-items: none;
         justify-content: none;
         text-align: center;
     }
-    .container-p>div,
-    .container-d>div,
-    .container-bs>div {
+    .container-p>div {
         flex-basis: 0;
     }
     .container-p h1,
-    .container-p p,
-    .container-d h1,
-    .container-d p,
-    .container-bs h1,
-    .container-bs p {
+    .container-p p {
         text-align: center;
     }
-    .container-p h1,
-    .container-d h1,
-    .container-bs h1 {
+    .container-p h1 {
         padding-top: 2vh;
     }
-    .puzzle_text,
-    .dotted_text,
-    .board-server_text {
+    .project-text {
         padding-right: 3vw;
     }
-    .puzzle_image,
-    .dotted_image,
-    .board-server_image {
+    .project-image {
         flex-basis: 0;
     }
-    .puzzle,
-    .dotted,
-    .board-server {
+    .project {
         margin-left: 0vw;
         margin-right: 0vw;
     }
-    .puzzle_desc,
-    .dotted_desc,
-    .board-server_desc {
+    .project-desc {
         margin-left: 0vw;
         margin-right: 0vw;
     }
-    .puzzle img,
-    .dotted img,
-    .board-server img {
+    .project img {
         width: 60vw;
         height: auto;
+        float: none;
     }
-    .puzzle_desc img,
-    .dotted_desc img,
-    .board-server_desc img {
+    .project-desc img {
         height: 10px;
         width: 10px;
     }

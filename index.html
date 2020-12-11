@@ -40,7 +40,7 @@
     </div>
 
     <div class="portfolio" id="projects">
-        <div class="puzzle">
+        <div class="project">
             <div class="title">
                 <h1>Some Of My Projects.</h1>
             </div>
@@ -48,16 +48,16 @@
             <div class="horizontal-line"></div>
 
             <div class="container-p">
-                <div class="puzzle_image">
+                <div class="project-image">
                     <img src="Images/puzzle_menu_online.png">
                 </div>
 
-                <div class="puzzle_text">
-                    <div class="puzzle_title">
+                <div class="project-text">
+                    <div class="project-title">
                         <h1>Puzzle - A Minecraft Server Manager</h1>
                     </div>
 
-                    <div class="puzzle_desc">
+                    <div class="project-desc">
                         <p>A simple server manager for the popular game, Minecraft. Built for the Linux terminal, it allows you to start, stop, backup, restore, and set automated backups for your Minecraft server. Given a number of maximum backups, it will
                             auto-remove the oldest backups to make sure you never exceed the maximum amount. This saves tons of storage space each month! Everything is backed onto an SVN repository.</p>
 
@@ -69,41 +69,71 @@
             </div>
         </div>
 
-        <div class="dotted">
-            <div class="container-d">
-                <div class="dotted_image">
-                    <img src="Images/dotted.PNG">
+        <div class="project">
+            <div class="container-p">
+                <div class="project-image">
+                    <img src="Images/fortanalytics.PNG">
                 </div>
 
-                <div class="dotted_text">
-                    <div class="dotted_title">
-                        <h1>Dotted - Puzzle Game</h1>
+                <div class="project-text">
+                    <div class="project-title">
+                        <h1>Fortnite Analytics</h1>
                     </div>
 
-                    <div class="dotted_desc">
-                        <p>A fun puzzle game whose goal is to collect as many points as possible. Swap two dots to form chains of length 3 or more to earn points. Every chain created is removed from the game board, where the pieces cascade downwards, and
-                            the remaining empty slots are filled with randomly colored pieces. Dotted utilizes recursion to produce the cascade, and feautures a simple and attractive GUI.</p>
+                    <div class="project-desc">
+                        <p>A simple web app which displays Fortnite player statistics. It is built with React and makes RESTful API HTTP requests to retrieve player data.
+                            The RESTful API is implemented in Java with Spring Boot Microservices, where Fortnite player information is received from fortniteapi.io and organzied 
+                            appropriately.
+                        </p>
 
-                        <p>Learn more about Dotted on my GitHub <a href="https://github.com/KingLai23/Dotted" target="_blank">here</a>.</p>
+                        <p>Learn more about Fortnite Analytics on my GitHub: <a href="https://github.com/KingLai23/FortniteAnalytics" target="_blank">Webapp Repo</a>
+                             and <a href="https://github.com/KingLai23/FortAnalyticsSpringBootMS" target="_blank">Spring Boot Repo</a>.</p>
 
-                        <p><img src="Images/orange.png">Java</p>
+                        <p><img src="Images/orange.png">Java &nbsp;&nbsp;&nbsp;<img src="Images/yellow.png">Javascript &nbsp;&nbsp;&nbsp;<img src="Images/purple.png">HTML & CSS</p>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="board-server">
-            <div class="container-bs">
-                <div class="board-server_image">
+        <div class="project">
+            <div class="container-p">
+                <div class="project-image">
+                    <img src="Images/minesweeper.PNG">
+                </div>
+
+                <div class="project-text">
+                    <div class="project-title">
+                        <h1>Minesweeper - Game & Engine</h1>
+                    </div>
+
+                    <div class="project-desc">
+                        <p>A simple Minesweeper engine which can solve Easy, Intermediate, and Expert with success rates of 80%, 50%, and 3% respectively.
+                            The engine looks for patterns in order to open up board. If there are no patterns found, it will make a list of squares which
+                            are guaranteed mines, and select a random unopened square outside of that list.
+                        </p>
+
+                        <p>Learn more about my Minesweeper Engine on my Github <a href="https://github.com/KingLai23/Minesweeper" target="_blank">here</a>,
+                            where you can run an executable to play Minesweeper yourself.
+                        </p>
+
+                        <p><img src="Images/darkblue.png">Python</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="project">
+            <div class="container-p">
+                <div class="project-image">
                     <img src="Images/board-server.png">
                 </div>
 
-                <div class="board-server_text">
-                    <div class="board-server_title">
+                <div class="project-text">
+                    <div class="project-title">
                         <h1>Text-based Message Server Board</h1>
                     </div>
 
-                    <div class="board-server_desc">
+                    <div class="project-desc">
                         <p>A text-based server that stores a 76-byte message. Written for the Linux terminal, it allows multiple clients to access and modify this message by connecting to a port on a Linux machine. It features simple network programming
                             and uses the select system call (see the <a href="https://man7.org/linux/man-pages/man2/select.2.html" target="_blank">Linux Man Page</a> for more information) to perform <a href="https://searchnetworking.techtarget.com/definition/multiplexing#:~:text=Multiplexing%20(or%20muxing)%20is%20a,called%20demultiplexing%20(or%20demuxing)."
                                 target="_blank">multiplexing</a>. This program was written in C.</p>
