@@ -109,7 +109,7 @@ html {
 }
 
 .resume a:hover {
-    color: #fff;
+    color: #cadae3;
     font-weight: normal;
     background-color: #15181b;
     transition: background-color 0.25s ease-in-out;
@@ -179,7 +179,7 @@ html {
 }
 
 .project-image img {
-    height: 320px;
+    height: 350px;
     width: auto;
     border-radius: 10px 10px;
     box-shadow: 1px 1px 1px #000;
