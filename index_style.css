@@ -1,5 +1,5 @@
 body {
-    background-color: #151b22;
+    background-color: #12161b;
     font-family: 'Kumbh Sans', sans-serif;
     margin: 25px;
     color: #ffffff;
@@ -40,7 +40,7 @@ html {
     width: 16rem;
     height: 16rem;
     border-radius: 50%;
-    padding: 5px;
+    padding: 2px;
     background-color: #262e36;
 }
 
@@ -82,11 +82,13 @@ html {
 .intro .bio .social_links .linkedin:hover {
     background-color: #0e76a8;
     color: #ffffff;
+    transform: scale(1.05);
 }
 
 .intro .bio .social_links .github:hover {
     background-color: #24292e;
     color: #ffffff;
+    transform: scale(1.05);
 }
 
 .intro .bio .resume {
@@ -98,14 +100,14 @@ html {
     text-decoration: none;
     background-color: #ffffff;
     border-radius: 50px;
-    border: none;
-    padding: 15px 35px;
-    font-size: 1.6rem;
+    border: #d1d1d1 solid 2px;
+    padding: 15px 30px;
+    font-size: 1.4rem;
     font-weight: bold;
 }
 
 .intro .bio .resume button:hover {
-    background-color: #c9e4ff;
+    transform: scale(1.05);
     transition: background-color 0.25s ease-in-out;
     cursor: pointer;
 }
@@ -127,12 +129,18 @@ html {
     font-weight: 400;
 }
 
+.projects .individual_project,
+.experience .individual_experience,
+.education .individual_education {
+    background-color: #262e36;
+    border: #465463 solid 2px;
+}
+
 .projects .individual_project {
     display: flex;
     justify-content: space-between;
     align-items: center;
     column-gap: 3rem;
-    background-color: #262e36;
     padding: 30px 80px;
     border-radius: 10px;
     margin: 40px 0px;
@@ -141,7 +149,6 @@ html {
 }
 
 .experience .individual_experience {
-    background-color: #262e36;
     padding: 20px 80px;
     border-radius: 10px;
     margin: 25px 0;
@@ -169,6 +176,54 @@ html {
     margin-right: 10px;
 }
 
+.projects .individual_project .tool_tags {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+}
+
+.projects .individual_project .tool_tags .shell,
+.projects .individual_project .tool_tags .java,
+.projects .individual_project .tool_tags .javascript,
+.projects .individual_project .tool_tags .html_css,
+.projects .individual_project .tool_tags .python,
+.projects .individual_project .tool_tags .typescript {
+    padding: 2px 15px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    border-radius: 20px;
+}
+
+.projects .individual_project .tool_tags .shell {
+    background-color: #218d45;
+    border: #36b15f solid 2px;
+}
+
+.projects .individual_project .tool_tags .java {
+    background-color: #ad2b2b;
+    border: #cc4444 solid 2px;
+}
+
+.projects .individual_project .tool_tags .javascript {
+    background-color: #c2961e;
+    border: #e6bc49 solid 2px;
+}
+
+.projects .individual_project .tool_tags .typescript {
+    background-color: #1a7497;
+    border: #2b8db4 solid 2px;
+}
+
+.projects .individual_project .tool_tags .python {
+    background-color: #184f8f;
+    border: #3674bb solid 2px;
+}
+
+.projects .individual_project .tool_tags .html_css {
+    background-color: #4a22a8;
+    border: #6334cf solid 2px;
+}
+
 .experience .individual_experience h2 {
     font-size: 1.35rem;
     margin: 15px 0 5px;
@@ -181,7 +236,6 @@ html {
 }
 
 .education .individual_education {
-    background-color: #262e36;
     padding: 30px 80px;
     border-radius: 10px;
     margin: 30px 0;
@@ -232,6 +286,7 @@ html {
 
     .intro .profile_pic {
         text-align: center;
+        margin-bottom: 25px;
     }
 
     .intro, .projects .individual_project, 
